@@ -5,7 +5,7 @@ CREATE TABLE books (
   genre VARCHAR(255),
   published_year CHAR(4),
   isbn CHAR(13),
-  price INTEGER,
-  rating INTEGER,
+  price DECIMAL(10,2),
+  rating DECIMAL(3,2),
   stock_count INTEGER
   );
